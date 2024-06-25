@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Bilder Erkennen</title>
+    <p> <big> <b>Fake Bilder Erkennen</b></big> </p>
+    Künstliche Intelligenz wird schnell besser. Können Sie erkennen, was jetzt echt ist?
+
+    Werkzeuge der künstlichen Intelligenz können lebensechte Gesichter und realistische Fotos erstellen - und sie werden immer besser.
+    Die gefälschten Bilder tauchen jetzt regelmäßig in den sozialen Medien auf, und viele Nutzer scheinen zu glauben, dass die Bilder echt sind. Es gibt jedoch einige verräterische Anzeichen dafür, dass ein Bild von einer künstlichen Intelligenz erstellt wurde.
+    
+    Können Sie den Unterschied erkennen? Machen Sie das Quiz
+    
+</head>
+<body>
+
+    <p> <big> <b>Quiz</b></big> </p>
+    <style>
+        .hidden-text {
+            display: none;
+        }
+    </style>
+    <p> <big> <b>Bild 1</b></big> </p>
+    <img src="KI_Fake_Images/celebs.jpg" width="60%">
+    <br>
+    <button onclick="revealText(1)">Bild ist ein echtes Bild.</button>
+    <button onclick="revealText(2)">Bild ist AI generiert.</button>
+    <br>
+    <p id="text1" class="hidden-text">Sie haben Recht! Dies ist ein echtes Bild. Dieses Bild zeigt einige Stars aus den "Justice League"-Filmen - Ben Affleck, Gal Gadot, Henry Cavill und Jason Momoa.
+    Es ist ein echtes Bild, aber es sieht vielleicht etwas ungewöhnlich aus, weil es entweder beschnitten oder komprimiert wurde, nachdem es mehrmals in den sozialen Medien gepostet wurde.</p>
+    <p id="text2" class="hidden-text">Nein, dies ist ein echtes Bild. Dieses Bild zeigt einige Stars aus den "Justice League"-Filmen - Ben Affleck, Gal Gadot, Henry Cavill und Jason Momoa. Es ist ein echtes Bild, aber es sieht vielleicht etwas ungewöhnlich aus, weil es entweder beschnitten oder komprimiert wurde, nachdem es mehrmals in den sozialen Medien gepostet worden war. Das Originalbild finden Sie unten.</p>
+    <p> <big> <b>Bild 2</b></big> </p>
+    <img src="KI_Fake_Images/singer.jpg" width="60%"> 
+    <br>
+    <button onclick="revealText(3)">Bild ist ein echtes Bild.</button>
+    <button onclick="revealText(4)">Bild ist AI generiert.</button>
+    <br>
+    <p id="text3" class="hidden-text">Dies ist ein von der KI generiertes Bild. Dieses Bild, das zwei Sängerinnen zeigt, ähnelt einem Werbebild einer Fernsehsendung. Aber es ist nicht echt. Viele KI-Bilder werden häufig auf Facebook-Seiten und anderswo geteilt, ohne dass angegeben wird, dass sie maschinell erzeugt wurden.
+        Einige verräterische Anzeichen für KI-Fälschungen finden sich überall auf dem Bild: Das Mädchen hat nur vier sichtbare Finger, der rechte Arm der Frau scheint zu verschwinden, und die Menschen im Hintergrund scheinen mit den Instrumenten zu verschmelzen. KI-Bildgeneratoren haben immer noch Schwierigkeiten mit Details wie Fingern, aber sie werden immer besser.
+        </p>
+    <p id="text4" class="hidden-text">Sie haben Recht! Dies ist ein von der KI generiertes Bild. Dieses Bild, das zwei Sängerinnen zeigt, ähnelt einem Werbebild einer Fernsehsendung. Aber es ist nicht echt. Viele KI-Bilder, darunter auch die in diesem Quiz, werden häufig auf Facebook-Seiten und anderswo geteilt, ohne dass angegeben wird, dass sie maschinell erzeugt wurden.
+        Einige verräterische Anzeichen für KI-Fälschungen finden sich überall auf dem Bild: Das Mädchen hat nur vier sichtbare Finger, der rechte Arm der Frau scheint zu verschwinden, und die Menschen im Hintergrund scheinen mit den Instrumenten zu verschmelzen. KI-Bildgeneratoren haben immer noch Schwierigkeiten mit Details wie Fingern, aber sie werden immer besser.</p>
+        <p> <big> <b>Bild 3</b></big> </p>
+    <img src="KI_Fake_Images/biden.jpg" width="60%">
+    <br>
+    <button onclick="revealText(5)">Bild ist ein echtes Bild.</button>
+    <button onclick="revealText(6)">Bild ist AI generiert.</button>
+    <br>
+    <p id="text5" class="hidden-text">Dies ist ein echtes Bild. Dieses Bild zeigt Regierungschefs auf dem G7-Gipfel. Politische Fehlinformationen sind eines der größten Risiken bei KI-Instrumenten. Datenschützer haben in diesem Jahr eine Reihe von KI-Fälschungen im Umlauf gesehen, darunter auch KI-Videos, die als "Deepfakes" bekannt sind. Aber das Problem schien in dieser Wahlsaison weniger ausgeprägt zu sein, als manche erwartet hatten.
+    KI-Bildgeneratoren neigen dazu, Elemente in ihren Kreationen wiederholt zu verwenden, was ein mögliches Indiz dafür ist, dass sie nicht echt sind. In diesem Fall könnten die fast identischen Anzüge und Körperhaltungen den Anschein einer künstlichen Intelligenz erwecken.</p>
+    <p id="text6" class="hidden-text">Nein, dies ist ein echtes Bild. Dieses Bild zeigt Präsident Biden mit anderen Staats- und Regierungschefs auf dem G7-Gipfel in diesem Monat. Politische Fehlinformationen sind eines der größten Risiken bei KI-Instrumenten. Datenschützer haben in diesem Jahr eine Reihe von KI-Fälschungen im Umlauf gesehen, darunter auch KI-Videos, die als "Deepfakes" bekannt sind. Aber das Problem schien in dieser Wahlsaison weniger ausgeprägt zu sein, als manche erwartet hatten.
+        KI-Bildgeneratoren neigen dazu, Elemente in ihren Kreationen wiederholt zu verwenden, was ein mögliches Indiz dafür ist, dass sie nicht echt sind. In diesem Fall könnten die fast identischen Anzüge und Körperhaltungen den Anschein einer künstlichen Intelligenz erwecken.</p>
+        <p> <big> <b>Bild 4</b></big> </p>
+    <img src="KI_Fake_Images/design.jpg" width="60%">
+    <br>
+    <button onclick="revealText(7)">Bild ist ein echtes Bild.</button>
+    <button onclick="revealText(8)">Bild ist AI generiert.</button>
+    <br>
+    <p id="text7" class="hidden-text">Dies ist ein KI-generiertes Bild. Dieses Bild könnte einem rustikalen Badezimmer ähneln, aber es wurde von der künstlichen Intelligenz erstellt. Viele Social-Media-Seiten teilen atemberaubende Architektur- und Innendesigns, ohne zu verraten, dass sie von KI-Tools erstellt wurden.
+        Auch wenn sie auf den ersten Blick überzeugend wirken, gibt es meist verräterische Anzeichen dafür, dass sie gefälscht sind. Oft gibt es Designelemente, die sich jeder Logik entziehen. Hier erscheint der Duschkopf an einer Stelle, an der er unmöglich zu benutzen wäre. Komplexe Elemente im Hintergrund können verstümmelt und unsinnig sein, wie z. B. ein Wasserhahn in der Badewanne, der gleichzeitig als Telefon zu dienen scheint. Wie in anderen Bildern der künstlichen Intelligenz erscheint der Text im Kunstwerk verstümmelt.</p>
+    <p id="text8" class="hidden-text">Sie haben Recht! Dies ist ein KI-generiertes Bild. Dieses Bild könnte einem rustikalen Badezimmer ähneln, aber es wurde von der künstlichen Intelligenz erstellt. Viele Social-Media-Seiten teilen atemberaubende Architektur- und Innendesigns, ohne zu verraten, dass sie von KI-Tools erstellt wurden. Auch wenn sie auf den ersten Blick überzeugend wirken, gibt es meist verräterische Anzeichen dafür, dass sie gefälscht sind.
+        Oft gibt es Designelemente, die sich jeder Logik entziehen. Hier erscheint der Duschkopf an einer Stelle, an der er unmöglich zu benutzen wäre. Komplexe Elemente im Hintergrund können verstümmelt und unsinnig sein, wie z. B. ein Wasserhahn in der Badewanne, der gleichzeitig als Telefon zu dienen scheint. Wie in anderen Bildern der künstlichen Intelligenz erscheint der Text im Kunstwerk verstümmelt.</p>
+        <p> <big> <b>Bild 5</b></big> </p>
+        <img src="KI_Fake_Images/tattoos.jpg" width="60%">
+    <br>
+    <button onclick="revealText(9)">Bild ist ein echtes Bild.</button>
+    <button onclick="revealText(10)">Bild ist AI generiert.</button>
+    <br>
+    <p id="text9" class="hidden-text">Dies ist ein echtes Bild. Es zeigt Richard Huff, einen Kalifornier, der mehr als 240 Tätowierungen hat, mit seinen Zwillingsjungen.</p>
+    <p id="text10" class="hidden-text">Sie haben Recht! Dies ist ein KI-generiertes Bild. Dieses Bild könnte einem rustikalen Badezimmer ähneln, aber es wurde von der künstlichen Intelligenz erstellt. Viele Social-Media-Seiten teilen atemberaubende Architektur- und Innendesigns, ohne zu verraten, dass sie von KI-Tools erstellt wurden. Auch wenn sie auf den ersten Blick überzeugend wirken, gibt es meist verräterische Anzeichen dafür, dass sie gefälscht sind.
+    Oft gibt es Designelemente, die sich jeder Logik entziehen. Hier erscheint der Duschkopf an einer Stelle, an der er unmöglich zu benutzen wäre. Komplexe Elemente im Hintergrund können verstümmelt und unsinnig sein, wie z. B. ein Wasserhahn in der Badewanne, der gleichzeitig als Telefon zu dienen scheint. Wie in anderen Bildern der künstlichen Intelligenz erscheint der Text im Kunstwerk verstümmelt.</p>
+    <p> <big> <b>Bild 6</b></big> </p>
+    <img src="KI_Fake_Images/soldiers.png" width="60%">
+    <br>
+    <button onclick="revealText(11)">Bild ist ein echtes Bild.</button>
+    <button onclick="revealText(12)">Bild ist AI generiert.</button>
+    <br>
+    <p id="text11" class="hidden-text">Dies ist ein von der KI generiertes Bild. Es kursierte auf Facebook. Viele Kommentatoren schienen zu glauben, dass das Bild echt sei. Die Geschichte, die das Foto begleitete, suggerierte, dass es sich bei den Männern um ein Paar handelte, das Widrigkeiten überwunden hatte, um eine Familie zu gründen und in den Streitkräften aufzusteigen. Viele Facebook-Konten haben die Plattform mit KI-generierten Fotos überschwemmt.</p>
+    <p id="text12" class="hidden-text">Sie haben Recht! Dies ist ein von der KI generiertes Bild. Es kursierte auf Facebook. Viele Kommentatoren schienen zu glauben, dass das Bild echt sei. Die Geschichte, die das Foto begleitete, suggerierte, dass es sich bei den Männern um ein Paar handelte, das Widrigkeiten überwunden hatte, um eine Familie zu gründen und in den Streitkräften aufzusteigen. Viele Facebook-Konten haben die Plattform mit KI-generierten Fotos überschwemmt.</p>
+
+    <p> <big> <b>Bild 7</b></big> </p>
+    <img src="KI_Fake_Images/amazon.jpeg" width="60%">
+    <br>
+    <button onclick="revealText(13)">Bild ist ein echtes Bild.</button>
+    <button onclick="revealText(14)">Bild ist AI generiert.</button>
+    <br>
+    <p id="text13" class="hidden-text">Dies ist ein von der KI generiertes Bild. Es wurde für "12 Angry Men", den preisgekrönten Film von 1957, erstellt. Es erschien auf Freevee, einem kostenlosen Streaming-Dienst im Besitz von Amazon, so Andy Kelly, ein Journalist, der das Bild auf X teilte.
+        Viele der Gesichter sehen sehr ungewöhnlich aus, mit verstümmelten Nasen und falsch ausgerichteten Augen. Diese Fehler traten bei älteren KI-Bildgeneratoren häufiger auf, während neuere Tools rasche Verbesserungen erzielt haben.</p>
+    <p id="text14" class="hidden-text">Sie haben Recht! Dies ist ein von der KI generiertes Bild. Es wurde für "12 Angry Men", den preisgekrönten Film von 1957, erstellt. Es erschien auf Freevee, einem kostenlosen Streaming-Dienst, der zu Amazon gehört, so Andy Kelly, ein Journalist, der das Bild auf X teilte. Amazon reagierte nicht auf Anfragen nach einem Kommentar.
+        Viele der Gesichter sehen sehr ungewöhnlich aus, mit verstümmelten Nasen und falsch ausgerichteten Augen. Diese Fehler traten bei älteren KI-Bildgeneratoren häufiger auf, während neuere Tools rasche Verbesserungen erzielt haben.</p>
+        <p> <big> <b>Bild 8</b></big> </p>
+    <img src="KI_Fake_Images/rock.png" width="60%">
+    <br>
+    <button onclick="revealText(15)">Bild ist ein echtes Bild.</button>
+    <button onclick="revealText(16)">Bild ist AI generiert.</button>
+    <br>
+    <p id="text15" class="hidden-text">Es scheint Dwayne (The Rock) Johnson in einem Einkaufszentrum zu zeigen. Aber es wurde von Bobby Griffin erstellt, einem 28-jährigen Künstler aus Kalifornien. Er benutzte Midjourney, eine Firma für künstliche Intelligenz, die lebensechte Bilder erstellen kann. Das Unternehmen ist in die Kritik geraten, weil es offenbar urheberrechtlich geschütztes Material zum Trainieren seiner KI-Tools verwendet und es den Nutzern ermöglicht, Bilder von Berühmtheiten, Politikern und anderem geistigen Eigentum zu erstellen.
+        Auf diesem Bild ist das Abzeichen zu erkennen, das einen verstümmelten Text enthält. Viele KI-Systeme haben immer noch Schwierigkeiten, echten Text zu erstellen, aber sie werden immer besser. Dieses Bild war Teil einer Serie von Mr. Griffin, die Prominente in alltäglichen Berufen zeigt.</p>
+    <p id="text16" class="hidden-text">Sie haben Recht! Dies ist ein von der KI generiertes Bild. Es scheint Dwayne (The Rock) Johnson in einem Einkaufszentrum zu zeigen. Aber es wurde von Bobby Griffin erstellt, einem 28-jährigen Künstler aus Kalifornien, der online als GremlinBobby bekannt ist. Er benutzte Midjourney, eine Firma für künstliche Intelligenz, die in der Lage ist, lebensechte Bilder zu erstellen. Das Unternehmen ist in die Kritik geraten, weil es offenbar urheberrechtlich geschütztes Material zum Trainieren seiner KI-Tools verwendet und es den Nutzern ermöglicht, Bilder von Berühmtheiten, Politikern und anderem geistigen Eigentum zu erstellen.
+        Auf diesem Bild ist das Abzeichen zu erkennen, das einen verstümmelten Text enthält. Viele KI-Systeme haben immer noch Schwierigkeiten, echten Text zu erstellen, aber sie werden immer besser. Dieses Bild war Teil einer Serie von Mr. Griffin, die Prominente in alltäglichen Berufen zeigt.</p>
+        <p> <big> <b>Bild 9</b></big> </p>
+    <img src="KI_Fake_Images/fight.png" width="60%">
+    <br>
+    <button onclick="revealText(17)">Bild ist ein echtes Bild.</button>
+    <button onclick="revealText(18)">Bild ist AI generiert.</button>
+    <br>
+    <p id="text17" class="hidden-text">Richtig! Dies ist ein echtes Bild. Es zeigt Darsteller in "The Outsiders", einem Broadway-Stück mit einer choreografierten Kampfszene inmitten von Regenfällen.
+        Die künstliche Intelligenz hat sich bei der Erstellung von ungewöhnlichen oder weltfremden Bildern wie diesem hervorgetan und den Konten in den sozialen Medien ein neues Werkzeug an die Hand gegeben, um Engagement und Klicks zu fördern.</p>
+    <p id="text18" class="hidden-text">Ups, nicht ganz. Dies ist ein echtes Bild. Es zeigt Darsteller in "The Outsiders", einem Broadway-Stück mit einer choreografierten Kampfszene inmitten von Regenfällen.
+        Die künstliche Intelligenz hat sich bei der Erstellung ungewöhnlicher oder weltfremder Bilder wie diesem hervorgetan und den Konten in den sozialen Medien ein neues Werkzeug an die Hand gegeben, um das Engagement und die Klicks zu steigern.</p>
+
+        <p> <big> <b>Bild 10</b></big> </p>
+    <img src="KI_Fake_Images/biden.png" width="60%">
+    <br>
+    <button onclick="revealText(19)">Bild ist ein echtes Bild.</button>
+    <button onclick="revealText(20)">Bild ist AI generiert.</button>
+    <br>
+    <p id="text19" class="hidden-text">Nein, dies ist ein von der KI generiertes Bild. Sensity, ein Unternehmen, das Deepfakes aufspürt, fand dieses Bild in einer Sammlung ähnlicher Fälschungen, die im Internet kursieren und von denen viele Präsident Biden oder den ehemaligen Präsidenten Donald J. Trump in einer Vielzahl von glaubwürdigen, aber unwahrscheinlichen Situationen zeigen.
+        Obwohl die Ähnlichkeit mit Präsident Biden frappierend ist, würde er als Zivilist keine militärische Uniform tragen.</p>
+    <p id="text20" class="hidden-text">Sie haben Recht! Dies ist ein von der künstlichen Intelligenz generiertes Bild. Sensity, ein Unternehmen, das Deepfakes aufspürt, fand dieses Bild in einer Sammlung ähnlicher Fälschungen, die im Internet kursieren und von denen viele Präsident Biden oder den ehemaligen Präsidenten Donald J. Trump in einer Vielzahl von glaubwürdigen, aber unwahrscheinlichen Situationen zeigen.
+        Obwohl die Ähnlichkeit mit Präsident Biden frappierend ist, würde er als Zivilist keine militärische Uniform tragen.</p>
+    <script>
+        function revealText(textNumber) {
+            const textElement = document.getElementById(`text${textNumber}`);
+            textElement.style.display = "block";
+        }
+    </script>
+</body>
+</html>
